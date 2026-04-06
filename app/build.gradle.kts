@@ -75,6 +75,12 @@ dependencies {
     // OkHttp WebSocket
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
 
+    // OSMDroid (Map Library)
+    implementation("org.osmdroid:osmdroid-android:6.1.18")
+
+    // Location Services (GPS)
+    implementation("com.google.android.gms:play-services-location:21.1.0")
+
     // Test
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
