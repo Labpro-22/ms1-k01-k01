@@ -8,4 +8,9 @@
     <string name="families">Families</string>
     <string name="home">Home</string>
     <string name="map">Map</string>
+
+    <!-- Login Screen -->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="action_sign_in">Sign In</string>
 </resources>

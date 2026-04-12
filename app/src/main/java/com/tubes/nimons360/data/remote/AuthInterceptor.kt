@@ -36,7 +36,7 @@ class `AuthInterceptor`(
 
             // force redirect ke LoginActivity
             val intent = Intent().apply {
-                setClassName(context, "com.tubes.nimons360.ui.LoginActivity")
+                setClassName(context, "com.tubes.nimons360.ui.auth.LoginActivity")
                 flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
             }
             context.startActivity(intent)
